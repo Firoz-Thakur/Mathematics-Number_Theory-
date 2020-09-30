@@ -1,7 +1,7 @@
 A number is called almost prime if it has exactly two distinct prime divisors. For example, numbers 6, 18, 24 are almost prime, while 4, 8, 9, 42 are not.
 Find the amount of almost prime numbers which are between 1 and n, inclusive.
 
-
+//this is the another way to find that how much unique prime factor does any number have
 
 
 #include <bits/stdc++.h>
