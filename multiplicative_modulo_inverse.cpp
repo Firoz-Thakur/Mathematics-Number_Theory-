@@ -72,7 +72,7 @@ int find_inverse(int a,int b)
     {
         
         extended_ec(a,b);
-        return (x+b)%b;
+        return (x+b)%b;  // to avoid the negative values
         
     }
     
