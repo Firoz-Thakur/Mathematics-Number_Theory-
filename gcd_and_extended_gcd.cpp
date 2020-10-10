@@ -12,6 +12,17 @@ int gcdi(int a,int b)
 
 int x,y,gcd;
 
+1.) ax+by=gcd(a,b)
+2.) ay'+b[x'-(a/b)x']=gcd(a,b)
+	
+now we can say that : x=y'
+	and           y=x'-(a/b)x'
+
+
+	base case: gcd=a,x=1,y=0; when b==0;
+
+
+
 void extended_gcd(int a,int b)
 {
 	if(b==0)
