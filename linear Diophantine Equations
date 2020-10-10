@@ -25,3 +25,4 @@ int isPossible(int A, int B, int C){
      return 0;
         
     }
+https://codeforces.com/contest/633/problem/A
