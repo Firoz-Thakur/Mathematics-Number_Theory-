@@ -1,0 +1,27 @@
+A Diophantine equation is a polynomial equation, usually in two or more unknowns, such that only the integral solutions are required. An Integral solution is a solution such 
+that all the unknown variables take only integer values.
+
+Given three integers a, b, c representing a linear equation of the form : ax + by = c. Determine if the equation has a solution such that x and y are both integral values.\
+
+
+int isPossible(int A, int B, int C){
+        // code here
+    if(C%__gcd(A,B)==0)
+     return 1;
+    else
+     return 0;
+        
+    }
+    
+    
+    int isPossible(int A, int B, int C){
+        // code here
+    if(C%__gcd(A,B)==0)
+    {
+     extended(A,B);           //for the solutions
+     return 1;
+    }
+    else
+     return 0;
+        
+    }
